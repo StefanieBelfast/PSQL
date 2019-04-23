@@ -1,0 +1,30 @@
+CREATE TABLE books(number int,name char(7),Titel char(22),pages int);
+#create a table books
+
+INSERT INTO books VALUES(24,'crime','black',2224);
+#fill in table book1 followings things
+
+INSERT INTO books VALUES(43,'nature','blue',22);
+#fill in table book1 followings things
+
+INSERT INTO books VALUES(55,'children','green',333);
+#fill in table book1 followings things
+
+DELETE FROM books WHERE number =24;
+#delete from table book1 where you can find 24 in column number
+
+CREATE TABLE books(number int,name char(7),Titel char(22));
+#create a table books
+
+UPDATE books SET colour yellow WHERE pages =22;
+#a change in column colour in yellow where the column page is 22
+
+SELECT * FROM books;
+#show the hole table book1
+
+SELECT * FROM books ORDER BY number;
+#show the hole table book1 in order by column number
+
+DROP TABLE books;
+#delete the table books
+

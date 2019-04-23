@@ -1,0 +1,4 @@
+
+#!/bin/bash
+psql -U test -h localhost -p 5432 books -a -f insertfile.sql
+
